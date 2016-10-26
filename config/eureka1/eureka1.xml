@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestApp name="Eureka1">
+	<queryParam name="GET-Eureka1" url="" outputFile="eureka1.txt" />
+<!--	<queryParam name="POST-Cantas" url="login" outputFile="postcantas.txt" />
+	<queryParam name="DELETE-Cantas" url="login" outputFile="deletecantas.txt" />
+	<queryParam name="LIST-Cantas" url="auth/google" outputFile="getcantas1.txt" />-->
+</TestApp>

@@ -1,0 +1,2 @@
+Single Hystrix App: http://hystrix-app:port/hystrix.stream
+
