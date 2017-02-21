@@ -21,7 +21,7 @@ import com.bluemeric.common.Util;
 
 public class RunTest  implements ITestListener {
 	static String projectHome = System.getProperty("user.dir")+"/";//System.getProperty("PROJECT_HOME") + "/";
-	static String endpoint = "localhost:7979";
+	static String endpoint = System.getenv("APP_ENDPOINT")+":"+ System.getenv("APP_PORT_7979");
 
 	List<XmlSuite> xmlSuites;
 	
